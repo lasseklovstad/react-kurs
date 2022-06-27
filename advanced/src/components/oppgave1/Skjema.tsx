@@ -1,7 +1,9 @@
 
 
 /*
-Oppgave 1: bruke useState til å toveis binde en variable til inputfeltet
+Oppgave 1: bruke useState til å toveis binde en variable til value av inputfeltet
+
+Deretter print det ut i alert
  */
 
 import {FormEventHandler} from "react";

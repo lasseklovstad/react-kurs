@@ -1,4 +1,4 @@
-import {FormEventHandler, useState} from "react";
+import {FormEventHandler, useState, ReactNode} from "react";
 
 export const Skjema = () => {
     const [navn, setNavn] = useState("")

@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
-import {Skjema} from "./components/SkjemaLøsning";
+import {LiftState} from "./components/oppgave4/LiftState";
+import {Oppgave5} from "./components/oppgave5/Oppgave5";
 
 function App() {
-  return <Skjema/>
+  return <Oppgave5/>
 }
 
 export default App;
