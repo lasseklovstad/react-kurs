@@ -5,16 +5,14 @@ interface PokemonProps {
     name: string
 }
 export const Pokemon = ({name}: PokemonProps) => {
-    const [pokemon, setPokemon] = useState<string | null>(null)
-    useEffect(() => {
-        fetchPokemon(name).then(data => {
-            setPokemon(data)
-        })
-    }, [name])
+    const pokemon = name
+
+    // Bruk Useefect til å hente data med fetchPokemon
+
 
     if (!pokemon) {
         return null
     }
 
-    return <img src={pokemon}/>;
+    return <img src={name}/>;
 };
